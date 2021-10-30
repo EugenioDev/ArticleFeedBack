@@ -35,6 +35,13 @@ body {
   font-weight: 300;
 }
 
+.feed {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #1f205d;
+}
+
 .container-tags small:hover {
   background-color: #1f205d;
   color: white;
@@ -54,6 +61,7 @@ body {
   bottom: 130px;
   right: -150px;
   transition: all 0.4s ease-in;
+  opacity: 0;
 }
 .pop-up-inner {
   width: 100%;
